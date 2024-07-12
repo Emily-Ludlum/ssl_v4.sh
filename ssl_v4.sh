@@ -18,7 +18,7 @@ fi
 echo "设置防火墙规则..."
 
 快速安装iptables
-apt-get install iptables
+apt-get install iptables -y
 
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
